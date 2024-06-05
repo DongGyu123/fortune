@@ -1,4 +1,4 @@
-from models.anime_characterize import InputModel, OutputModel
+from models.today_fortune import InputModel, OutputModel
 from utils.page import PageModel
 
 
