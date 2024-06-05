@@ -3,6 +3,7 @@ import os
 from fastapi import APIRouter
 
 from llm.chat import build as build_chat
+from llm.image import build as build_drawer
 from llm.store import LLMStore
 from models.today_fortune import InputModel, OutputModel
 
@@ -39,7 +40,7 @@ async def call_today_fortune(model: InputModel) -> OutputModel:
         * Birth Date: {model.date}
         * Birth Time: {model.time}
     '''
-
+    print(input)
     return OutputModel(
         output = chain.invoke({
             'input_context': input,
