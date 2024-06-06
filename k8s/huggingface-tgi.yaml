@@ -120,5 +120,5 @@ metadata:
 stringData:
   # TODO(user): change your own token!
   # HELP: Go to https://huggingface.co/settings/tokens
-  HUGGING_FACE_HUB_TOKEN: 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
+  HUGGING_FACE_HUB_TOKEN:
 
