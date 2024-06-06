@@ -73,7 +73,7 @@ def render(model: PageModel) -> None:
     )
     if not output_model:
         return st.stop()
-    print("__init__ -> ooutput:\n",output_model)
+
     # Preview the images
     if isinstance(output_model, ImagePreviewModel):
         st.image(str(output_model.image_url))
